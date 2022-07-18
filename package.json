@@ -1,6 +1,12 @@
 {
   "private": true,
+  "scripts": {
+    "clean": "rd /s/q \"docs/bin\" 2> nul",
+    "foo": "dir docs\\bin",
+    "build": "yarn clean & webpack"
+  },
   "dependencies": {
+    "intern": "^4.10.1",
     "webpack-cli": "^4.10.0"
   },
   "devDependencies": {
