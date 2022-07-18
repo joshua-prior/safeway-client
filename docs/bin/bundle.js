@@ -26,7 +26,7 @@ eval("/*\n * ATTENTION: The \"eval\" devtool has been used (maybe by default in 
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var intern_browser_intern__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! intern/browser/intern */ \"./node_modules/intern/browser/intern.js\");\n/* harmony import */ var intern_browser_intern__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(intern_browser_intern__WEBPACK_IMPORTED_MODULE_0__);\n\r\n\r\nconst f = (intern_browser_intern__WEBPACK_IMPORTED_MODULE_0___default());\r\nconst i = intern;\r\ndebugger;\r\nconsole.dir(f, i);\r\n\r\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var intern_browser_intern__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! intern/browser/intern */ \"./node_modules/intern/browser/intern.js\");\n/* harmony import */ var intern_browser_intern__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(intern_browser_intern__WEBPACK_IMPORTED_MODULE_0__);\n\r\n\r\nintern.configure({\r\n  suites: ['src/index.test.js'],\r\n  reporters: 'html'\r\n});\r\n\r\nintern.run();\r\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 

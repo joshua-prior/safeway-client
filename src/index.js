@@ -1,7 +1,8 @@
 import foobar from "intern/browser/intern";
 
-const f = foobar;
-const i = intern;
-debugger;
-console.dir(f, i);
+intern.configure({
+  suites: ['src/index.test.js'],
+  reporters: 'html'
+});
 
+intern.run();
