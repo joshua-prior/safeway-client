@@ -5,7 +5,7 @@ const { describe, it } = mocha.constructor;
 
 const report = document.createElement('DIV');
 report.id = 'mocha';
-Object.apply(report.style, {
+Object.assign(report.style, {
   position: 'fixed',
   zIndex: 100000,
   backgroundColor: 'white',
